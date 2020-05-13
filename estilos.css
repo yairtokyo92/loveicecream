@@ -170,6 +170,9 @@ ul span{
     background-repeat: no-repeat;
     margin-bottom: 2em;
 }
+.img-story img{
+    width:20em;
+}
 
 .contain-story h2{
     color: #333;
@@ -312,9 +315,9 @@ ul span{
 
             }
                 .user-description p::after{
+                    background-size: cover;
                     position: relative;
                     top:3rem;
-                    border: 1px solid ;
                     margin-right: auto;
                     margin-left: auto;
                     content: "";
@@ -322,7 +325,38 @@ ul span{
                     width:4em;
                     height:4em;
                     border-radius: 50%;
-                    background-image: url(http://lorempixel.com/200/200);
+                    background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60);
+                }
+                .user-description-dos p::after{
+                        background-position: center;
+                        background-size: cover;
+                        position: relative;
+                        top:3rem;
+                        margin-right: auto;
+                        margin-left: auto;
+                        content: "";
+                        display:block;
+                        width:4em;
+                        height:4em;
+                        border-radius: 50%;
+                        background-image: url(https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60); 
+                }
+                .user-description-tres p::after{
+                    background-position: center;
+                    background-size: cover;
+                    position: relative;
+                    top:3rem;
+                    margin-right: auto;
+                    margin-left: auto;
+                    content: "";
+                    display:block;
+                    width:4em;
+                    height:4em;
+                    border-radius: 50%;
+                    background-image: url(https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60);
+
+
+
                 }
         .name-user{
             font-size: 1.2em;
@@ -378,6 +412,7 @@ ul span{
             height: 3.5em;
             position: relative;
             background-color:rgba(0,0,0,.1);
+            opacity: .5;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -388,7 +423,7 @@ ul span{
         .btn-newsletter{
             width: 93%;
             display:inline-block;
-            border-radius: .5em;
+            border-radius:.4em;
             text-decoration: none;
             color: #fff;
             font-weight: 600;
