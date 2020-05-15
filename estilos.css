@@ -515,14 +515,16 @@ ul span{
         }
 
 .footer{
-width: 100%;
 background-color: #333;
-text-align: center;
 
 }
 .footer__social{
     width: 100%;
     padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .footer__logo{
     color: pink;
