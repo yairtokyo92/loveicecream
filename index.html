@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="estilos.css">
     <script src="https://kit.fontawesome.com/a0f914fd7d.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
-    <title>Flex vox y media queries</title>
+    <title>Loveiceream</title>
 </head>
 <body>
     <!-- navigation -->
@@ -14,9 +14,9 @@
     <nav class="navigation">
         <input id="btn-menu" type="checkbox">
         <label class="btn-menu" for="btn-menu"><i class="icon-burger fas fa-bars"></i></label>
-        <a class="logo" href="#">Icecream</a>
+        <a class="logo" href="#"> <span><i class="fas fa-heart"></i></span> Icecream</a>
         <ul class="menu">
-            <li><a class="menu-item-one" href="#"><span><i class="icon-home fas fa-home"></i></span> Home</a></li>
+            <li class="menu__li"><a class="menu-item-one" href="#"><span><i class="icon-home fas fa-home"></i></span> Home</a></li>
             <li><a class="menu-item-two" href="#"><span><i class="icon-home fas fa-history"></i></span>About Us</a></li>
             <li><a class="menu-item-trhee" href="#"><span><i class="icon-home fas fa-concierge-bell"></i></span>Services</a></li>
             <li><a class="menu-item-four" href="#"><span><i class="icon-home fab fa-blogger-b"></i></span>Blog</a></li>
@@ -27,25 +27,27 @@
 </header>
 <section class="banner-section">
     <div class="banner">
-        <h1 class="title-banner">I scream for icecream</h1>
-        <p class="description-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque porro esse nesciunt mollitia ut</p>
+        <h1 class="title-banner">I scream for <br> icecream</h1>
+        <p class="description-banner">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Atque porro esse nesciunt mollitia ut</p>
         <a class="btn-banner" href="#">Place order</a>
     </div>
 </section>
 <section class="story">
     <div class="img-story" ><img src="https://cdn.pixabay.com/photo/2016/12/26/16/09/bowl-1932375__340.jpg" alt="imagen"></div>
     <div class="contain-story">
-            <h2>Biography</h2>
+            <h2>Our ice parkour story</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quis rem illo. Fugit, sunt tempore! Ducimus natus quam labore odit fugiat similique maxime obcaecati soluta.</p>
             <a href="#">Learn More</a>
     </div>
 </section>
+<section class="flavour-container-external">
 <section class="flavours">
     <div class="title-flavour">
         <p>Our flavor</p>
         <h3>Different flavour</h3>
     </div>
-    <div class="cards-flavour">
+    
+       <div class="cards-flavour">
         <div class="card-flavour">
             <img src="https://purepng.com/public/uploads/large/purepng.com-ice-creamice-creamcreamfrozensweet-1411527613067esajz.png">
             <h3>Caramel Flavour</h3>
@@ -67,7 +69,9 @@
             <p class="price-flavour">$90</p>
             <a href="#">Order Now</a>
         </div>
-    </div>
+
+      </div>
+    </section>
 </section>
 <section class="user-satisfaction">
     <div class="title-flavour">
@@ -91,8 +95,8 @@
             </div>
             
         </div>
-    </div>
-    <div class="cards-user">
+    
+    
         <div class="card-user">
             <div class="user-description user-description-dos">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rem odit sed sequi eveniet suscipit magnam temporibus neque earum, placeat dolores, voluptatum veniam ullam eius quod sit vitae, labore cumque?</p>
@@ -109,8 +113,8 @@
             </div>
             
         </div>
-    </div>
-    <div class="cards-user">
+    
+    
         <div class="card-user">
             <div class="user-description user-description-tres">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rem odit sed sequi eveniet suscipit magnam temporibus neque earum, placeat dolores, voluptatum veniam ullam eius quod sit vitae, labore cumque?</p>
@@ -127,6 +131,7 @@
             </div>
             
         </div>
+
     </div>
 </section> 
 <section class="newsletter">
@@ -144,15 +149,56 @@
             <p class="footer__legend">
                 Stay in touch
             </p>
-            <div class="footer__icons">
+            <div class="footer__icon">
                 <span class="footer__icon__span" ><i class="footer__icon__item fab fa-facebook-square"></i></span>
                 <span class="footer__icon__span" ><i class="footer__icon__item fab fa-instagram-square"></i></span>
                 <span class="footer__icon__span" ><i class="footer__icon__item fab fa-twitter-square"></i></span>
                 <span class="footer__icon__span" ><i class="footer__icon__item fab fa-facebook-square"></i></span>
                 <span class="footer__icon__span" ><i class="footer__icon__item fab fa-facebook-square"></i></span>
+                <span class="footer__icon__span" ><i class="footer__icon__item fab fa-facebook-square"></i></span>
             </div>
        
-    </div>    
+    </div>
+    <div class="menus-footer">
+     <div class="quick-links">
+         <h4 class="quick-links__title">
+             Quick Links
+         </h4>
+         <ul class="quick-links__list" >
+             <a class="quick-links__item" href="#">Home</a>
+             <a class="quick-links__item" href="#">About Us</a>
+             <a class="quick-links__item" href="#">Services</a>
+             <a class="quick-links__item" href="#">Blog</a>
+             <a class="quick-links__item" href="#">Contact</a>
+         </ul>
+     </div>
+     <div class="information">
+         <h4 class="information__title">
+             Information
+         </h4>
+         <ul class="information__list">
+             <a class="information__item" href="#">Flavours</a>
+             <a class="information__item" href="#">Deliverys</a>
+             <a class="information__item" href="#">Blogs</a>
+             <a class="information__item" href="#">Trusted Points</a>
+             <a class="information__item" href="#">Services</a>
+         </ul>
+     </div>
+     <div class="footer-contact">
+         <h4 class="footer-contact__title">
+            Contact
+         </h4>
+         <ul class="footer-contact__list">
+             <a class="footer-contact__item footer-contact__item-number" href="#"><span><i class="footer-contact__span fas fa-phone-alt"></i></span>+0800-3643-2323</a>
+             <a class="footer-contact__item" href="#"><span><i class="footer-contact__span-dos fas fa-at"></i></span>loveiceream@gmail.com</a>
+             <a class="footer-contact__item" href="#">Chester Paradise 3423</a>
+             <a class="footer-contact__item" href="#">Postal 3923</a>
+
+         </ul>
+     </div>
+    </div>
+    <h3 class="footer-copyright">Copyrights @loveiceream 2020</h3>
+      
 
 </footer>
 
