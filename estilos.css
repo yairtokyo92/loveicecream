@@ -6,6 +6,9 @@
     box-sizing: border-box;
     /* border: 1px solid #aaa; */
 }
+html{
+    scroll-behavior: smooth;
+}
 *,*::before,::after{
     box-sizing: border-box;
     margin: 0;
@@ -28,6 +31,7 @@ Menu de navegacion principal
     top: 0;
 }
 .navigation{
+    color: #fff;
     width: 100%;
     display:flex;
     flex-direction: row;
@@ -234,6 +238,10 @@ ul span{
     margin-top: 1em;
     margin-bottom: 2em;
 }
+.contain-story a:hover{
+    background-color:#c50944;
+
+}
 /***************************************************
          FLAVOURS
 ****************************************************/
@@ -328,6 +336,10 @@ ul span{
     padding: 1em;
     margin-top: 1em;
     margin-bottom: 2em;
+}
+.card-flavour a:hover{
+    background-color: var(--primary);
+    color: #fff;
 }
 /************************************************ 
                  Section User
@@ -713,9 +725,15 @@ background-color: #333;
         padding-left:.5em;
     }
 }
-@media screen and (max-width:1200px){
+@media screen and (min-width:1200px){
     .flavours{
         width: 90%;
+    }
+    .banner-section{
+        background-image: url(https://www.festivalclaca.cat/imgfv/b/11-117219_copa-de-helado-png-postre-copa-helado-chocolate.png);
+        background-repeat: no-repeat;
+        background-position: 45em 1em;
+        background-size: 25em;
     }
 
 }
